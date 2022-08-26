@@ -54,3 +54,12 @@ alter table employee_payroll add
 phone varchar(15),
 address varchar(100) default 'India' not null,
 department varchar(20) default 'CS' not null
+
+------UC-9------
+
+alter table employee_payroll add
+basic_pay money,
+deduction money,
+taxable_pay money,
+incometax money,
+net_pay money
