@@ -63,3 +63,10 @@ deduction money,
 taxable_pay money,
 incometax money,
 net_pay money
+
+-----UC-10------
+
+update employee_payroll set department='sales' where name='Terisa'
+
+insert into employee_payroll values
+('Terisa',23000.0,'2017-09-12','F',NULL,'India','Marketing',null,null,null,null,null)
