@@ -26,3 +26,9 @@ insert into employee_payroll values
 -------UC-4----
 
 select * from employee_payroll
+
+-------UC-5-----
+
+select salary from employee_payroll where name='bill'
+
+select name from employee_payroll where start_date between '2018-01-01' and getdate()
